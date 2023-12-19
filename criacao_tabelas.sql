@@ -16,7 +16,7 @@ CREATE TABLE tatuagem_db.public.clientes(
 );
 
 -- -- Querie para vizualizar os dados da tabela cliente
-SELECT * FROM tatuagem_db.public.clientes;
+-- SELECT * FROM tatuagem_db.public.clientes;
 
 -- -- Criação da tabela com informações dos produtos
 CREATE TABLE tatuagem_db.public.produtos(
@@ -26,27 +26,8 @@ CREATE TABLE tatuagem_db.public.produtos(
   categoria_produto VARCHAR (50),
   avaliacao_produto VARCHAR(100),
   preco float,
-  quantidade_estoque INT,
+  quantidade_estoque INT
 );
-
--- -- Querie para vizualizar os dados da tabela produto
-SELECT * FROM tatuagem_db.public.produtos;
-
--- -- Criação da tabela com informações do pedido
-CREATE TABLE tatuagem_db.public.pedidos(
-  pedido_id  int PRIMARY KEY,
-  status_pedido varchar(50),
-  data_pedido DATETIME,
-  data_recebimento DATETIME,
-  pedido_total float,
-  cliente_id int,
-  funcionario_id int
---   FOREIGN KEY (cliente_id) REFERENCES tatuagem_db.public.Clientes(cliente_id)
---   FOREIGN KEY (funcionario_id) REFERENCES funcionario_id(funcionario_id)
-);
-
--- -- Querie para vizualizar os dados da tabela de pedido
-SELECT * FROM tatuagem_db.public.pedidos;
 
 -- -- Criação da tabela com informações do funcionário
 CREATE TABLE tatuagem_db.public.funcionarios(
@@ -61,6 +42,29 @@ CREATE TABLE tatuagem_db.public.funcionarios(
   constraint unique_id_funcionario unique(funcionario_id)
 );
 
--- -- Querie para vizualizar os dados da tabela Funcionario
-SELECT * FROM tatuagem_db.public.funcionarios;
+-- -- Querie para vizualizar os dados da tabela produto
+-- SELECT * FROM tatuagem_db.public.produtos;
 
+-- -- Criação da tabela com informações do pedido
+CREATE TABLE tatuagem_db.public.pedidos(
+  pedido_id  int PRIMARY KEY,
+  status_pedido varchar(50),
+  data_pedido timestamp,
+  data_recebimento timestamp,
+  pedido_total float,
+  cliente_id int,
+  funcionario_id int,
+  FOREIGN KEY (cliente_id) REFERENCES tatuagem_db.public.clientes(cliente_id),
+  FOREIGN KEY (funcionario_id) REFERENCES tatuagem_db.public.funcionarios(funcionario_id)
+);
+
+drop table pedidos;
+
+CREATE TABLE tatuagem_db.public.pedidos_produtos(
+  pedido_produto_id  int PRIMARY KEY,
+  pedido_id int,
+  produto_id int,
+  valor_venda float,
+  FOREIGN KEY (pedido_id) REFERENCES tatuagem_db.public.pedidos(pedido_id),
+  FOREIGN KEY (produto_id) REFERENCES tatuagem_db.public.produtos(produto_id)
+);
