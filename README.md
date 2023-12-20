@@ -37,7 +37,7 @@ O modelo lógico serve como uma base sólida para a criação do banco de dados 
 efetivamente a estrutura do banco de dados de acordo com os requisitos identificados no modelo conceitual. É composto por: Tabelas, colunas(atributos), chaves primárias e estrangeiras, relacionamentos e integridade referencial, normalização, tipos de dados.
 
 <p align="center"> 
-<img width="490" align="center" alt="Modelo Lógico" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/imagens/modelo_logico.png">
+<img width="490" align="center" alt="Modelo Lógico" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/imagens/modelo_logico.jpeg">
 </p> 
 
 ## Modelo Físico
