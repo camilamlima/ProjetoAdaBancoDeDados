@@ -53,7 +53,3 @@ LEFT JOIN tatuagem_db.public.pedidos as p2 ON (pp.pedido_id = p2.pedido_id)
 WHERE EXTRACT(MONTH FROM p2.data_pedido) = 11 or p2.data_pedido is null
 GROUP BY 1
 ORDER BY 2 ASC
-
--- 7. Qual a média de idade dos clientes?
--- 8. Em Qual estado esta a maior fatia dos clientes?
--- 9. Quantos pedidos foram cancelados no mês de Novembro?

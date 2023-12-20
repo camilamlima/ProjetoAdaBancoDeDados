@@ -60,7 +60,7 @@ armazenamento e otimização. Utiliza a linguagem de definição de dados (DDL),
 É composto por: Índices, restrições de integridade, particionamento, segmentação de tabelas, organização de índices, esquema de armazenamento, particularidades do banco de dados específico.
 
 <p align="center"> 
-<img width="490" align="center" alt="Modelo Físico" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/imagens/modelo_fisico.png">
+<img width="490" align="center" alt="Modelo Físico" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/imagens/modelo_fisico.jpeg">
 </p> 
 
 ## Banco de Dados
