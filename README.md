@@ -4,11 +4,11 @@ Repositório dedicado ao projeto final do módulo 3 - banco de dados - do progra
 
 **Participantes:** 
 
-<i class="fa fa-computer" aria-hidden="true"></i>:computer:
+- <i class="fa fa-computer" aria-hidden="true"></i>:computer:
 **Andreza Oliveira**
-<i class="fa fa-computer" aria-hidden="true"></i>:computer:
+- <i class="fa fa-computer" aria-hidden="true"></i>:computer:
 **Camila Lima**
-<i class="fa fa-computer" aria-hidden="true"></i>:computer:
+- <i class="fa fa-computer" aria-hidden="true"></i>:computer:
 **Lívia Nobre**
 
 ## Loja de Insumos de Tatuagem
