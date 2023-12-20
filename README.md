@@ -28,7 +28,7 @@ Fornece uma visão clara e intuitiva do sistema, facilitando a comunicação ent
 À medida que o desenvolvimento do sistema avança, o modelo conceitual serve como base para a criação de modelos lógicos e físicos mais detalhados. É composto por: Entidades,atributos, relacionamentos,
 cardinalidade e do diagrama de entidade-relacionamento(DER).
 
-<img width="490" align="center" alt="Modelo Conceitual" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/modelo_conceitual/modelo_conceitual.jpg">
+<img width="490" align="center" alt="Modelo Conceitual" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/modelo_conceitual/modelo_conceitual.jpeg">
  
 
 ## Modelo Lógico
