@@ -27,8 +27,9 @@ Sendo em três níveis de modelagem: conceitual, lógico e físico.
 Fornece uma visão clara e intuitiva do sistema, facilitando a comunicação entre os envolvidos no projeto e ajudando a definir os requisitos iniciais.
 À medida que o desenvolvimento do sistema avança, o modelo conceitual serve como base para a criação de modelos lógicos e físicos mais detalhados. É composto por: Entidades,atributos, relacionamentos,
 cardinalidade e do diagrama de entidade-relacionamento(DER).
-<p align="center"> <img scr= "width="490"</p>
 
+<img width="490" align="center" alt="logoMaes" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/modelo_conceitual/modelo_conceitual.jpg">
+ 
 
 ## Modelo Lógico
 O modelo lógico serve como uma base sólida para a criação do banco de dados físico. Ele fornece uma representação mais detalhada dos dados, permitindo que os desenvolvedores implementem 
