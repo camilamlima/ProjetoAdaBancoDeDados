@@ -28,12 +28,17 @@ Fornece uma visão clara e intuitiva do sistema, facilitando a comunicação ent
 À medida que o desenvolvimento do sistema avança, o modelo conceitual serve como base para a criação de modelos lógicos e físicos mais detalhados. É composto por: Entidades,atributos, relacionamentos,
 cardinalidade e do diagrama de entidade-relacionamento(DER).
 
+<p align="center"> 
 <img width="490" align="center" alt="Modelo Conceitual" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/modelo_conceitual/modelo_conceitual.jpeg">
- 
+</p> 
 
 ## Modelo Lógico
 O modelo lógico serve como uma base sólida para a criação do banco de dados físico. Ele fornece uma representação mais detalhada dos dados, permitindo que os desenvolvedores implementem 
 efetivamente a estrutura do banco de dados de acordo com os requisitos identificados no modelo conceitual. É composto por: Tabelas, colunas(atributos), chaves primárias e estrangeiras, relacionamentos e integridade referencial, normalização, tipos de dados.
+
+<p align="center"> 
+<img width="490" align="center" alt="Modelo Lógico" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/modelo_logico/modelo_logico.png">
+</p> 
 
 ## Modelo Físico
 É  a terceira e última fase no processo de modelagem de dados, é a ponte entre a concepção abstrata do sistema (modelo conceitual) e
