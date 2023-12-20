@@ -1,3 +1,15 @@
+## Projeto Banco de Dados
+
+Repositório dedicado ao projeto final do módulo 3 - banco de dados - do programa **Vem Ser Tech - Dados**
+
+**Participantes:** 
+- <i class="fa fa-database"></i> 
+**Andreza Oliveira**
+- <i class="fa fa-database"></i>  
+**Camila Lima**
+- <i class="fa fa-database"></i> 
+**Lívia Nobre**
+
 ## Loja de Insumos de Tatuagem
 
 O projeto visou a criação de uma loja de insumos para tatuagem, um estabelecimento que fornece uma ampla variedade de produtos e equipamentos necessários para 
