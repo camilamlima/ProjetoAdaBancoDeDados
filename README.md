@@ -3,11 +3,11 @@
 Repositório dedicado ao projeto final do módulo 3 - banco de dados - do programa **Vem Ser Tech - Dados**
 
 **Participantes:** 
-- <i class="fa fa-database"></i> 
+- <i class="fa fa-database"></i> :database:
 **Andreza Oliveira**
-- <i class="fa fa-database"></i>  
+- <i class="fa fa-database"></i> :database:
 **Camila Lima**
-- <i class="fa fa-database"></i> 
+- <i class="fa fa-database"></i> :database:
 **Lívia Nobre**
 
 ## Loja de Insumos de Tatuagem
