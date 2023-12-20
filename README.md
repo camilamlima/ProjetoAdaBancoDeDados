@@ -29,7 +29,7 @@ Fornece uma visão clara e intuitiva do sistema, facilitando a comunicação ent
 cardinalidade e do diagrama de entidade-relacionamento(DER).
 
 <p align="center"> 
-<img width="490" align="center" alt="Modelo Conceitual" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/modelo_conceitual/modelo_conceitual.jpeg">
+<img width="490" align="center" alt="Modelo Conceitual" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/imagens/modelo_conceitual.jpeg">
 </p> 
 
 ## Modelo Lógico
@@ -37,7 +37,7 @@ O modelo lógico serve como uma base sólida para a criação do banco de dados 
 efetivamente a estrutura do banco de dados de acordo com os requisitos identificados no modelo conceitual. É composto por: Tabelas, colunas(atributos), chaves primárias e estrangeiras, relacionamentos e integridade referencial, normalização, tipos de dados.
 
 <p align="center"> 
-<img width="490" align="center" alt="Modelo Lógico" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/modelo_logico/modelo_logico.png">
+<img width="490" align="center" alt="Modelo Lógico" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/imagens/modelo_logico.png">
 </p> 
 
 ## Modelo Físico
@@ -45,6 +45,10 @@ efetivamente a estrutura do banco de dados de acordo com os requisitos identific
 a sua efetiva implementação e operação no ambiente do banco de dados. O foco está na implementação prática do design do banco de dados, além de aspectos como desempenho, 
 armazenamento e otimização. Utiliza a linguagem de definição de dados (DDL), como o SQL (Structured Query Language).
 É composto por: Índices, restrições de integridade, particionamento, segmentação de tabelas, organização de índices, esquema de armazenamento, particularidades do banco de dados específico.
+
+<p align="center"> 
+<img width="490" align="center" alt="Modelo Físico" src="https://github.com/camilamlima/ProjetoAdaBancoDeDados/blob/main/imagens/modelo_fisico.png">
+</p> 
 
 ## Banco de Dados
 O projeto foi realizado na linguagem SQL para manipulação de dados no PostgreSQL, um sistema gerenciador de banco de dados objeto relacional. Foram criadas tabelas, querys, chaves, utilização de comandos para consultas,
